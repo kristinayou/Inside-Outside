@@ -1,0 +1,92 @@
+body{
+	background-color:white;
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	padding: 40px;
+	margin-bottom: 40px;
+	height: relative;
+	background-image: linear-gradient(#e1ceca, #8da089);
+}
+
+header{
+	font-family: volina, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80px;
+	line-height: 1.2;
+	color: #172d3c;
+	margin-bottom: 60px;
+}
+
+img{
+	width: 65%;
+	border: 2px solid transparent;
+	border-radius: 25px;
+}
+
+p{
+	font-family: neue-haas-grotesk-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #172d3c;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.first{
+	display: block;
+	margin-bottom: 50px;
+}
+
+.flip-card {
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  padding-top: 40px;
+  display: block;
+}
+
+.flip-card-inner {
+/*  position: relative;*/
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  display: block;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+#first{
+	margin-bottom: 55%;
+}
+
+#second{
+	margin-bottom: 55%;
+}
+
+#third{
+	margin-bottom: 55%;
+}
+
+#fourth{
+	margin-bottom: 55%;
+}
+
+
+
+
+
+
+
+
